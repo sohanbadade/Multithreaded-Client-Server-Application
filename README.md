@@ -41,8 +41,10 @@ Start the Server by doing following steps:
   Start backup server in similar way above.
 
 Start Client: 
-        1. Go to Client/src 
-        2. Compile the files via following command and then start the Client: 
+
+1. Go to Client/src 
+
+2. Compile the files via following command and then start the Client: 
         (Windows OS) 
         Compile: 
         ``` javac -cp *.java Run: java -cp .;< path of ActiveMQ library > ClientPage1 ```
