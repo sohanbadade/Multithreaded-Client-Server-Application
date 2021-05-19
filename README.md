@@ -41,11 +41,12 @@ Start the Server by doing following steps:
   Start backup server in similar way above.
 
 Start Client: 
-1. Go to Client/src 
-2. Compile the files via following command and then start the Client: (Windows OS) 
-Compile: javac -cp *.java Run: java -cp .;< path of ActiveMQ library > ClientPage1 
-for example, in my case, 
-Compile: javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar 
-*.java 
-Run: java -cp .;D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar 
-ClientPage1
+        1. Go to Client/src 
+        2. Compile the files via following command and then start the Client: 
+        (Windows OS) 
+        Compile: 
+        ``` javac -cp *.java Run: java -cp .;< path of ActiveMQ library > ClientPage1 ```
+        For example, in my case, Compile: 
+        ``` javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar *.java ```
+        Run: 
+        ``` java -cp .;D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar ClientPage1 ```
