@@ -36,8 +36,9 @@ Start the Server by doing following steps:
           ```
           java -cp .;D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar ServerPage1
           ```
-Next, Start Backup Server:
-Start backup server in similar way above.
+  
+  Next, Start Backup Server:
+  Start backup server in similar way above.
 
 Start Client: 
 1. Go to Client/src 
