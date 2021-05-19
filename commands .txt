@@ -1,0 +1,9 @@
+server:
+javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar *.java
+java -cp .;D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar ServerPage1
+
+
+Client:
+javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar *.java
+java -cp .;D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar ClientPage1
+ 
