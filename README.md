@@ -47,8 +47,12 @@ Start Client:
 2. Compile the files via following command and then start the Client: 
         (Windows OS) 
         Compile: 
+        
         ``` javac -cp *.java Run: java -cp .;< path of ActiveMQ library > ClientPage1 ```
-        For example, in my case, Compile: 
-        ``` javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar *.java ```
-        Run: 
+        
+        
+      For example, in my case, Compile: 
+      
+      ``` javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar *.java ```
+     Run: 
         ``` java -cp .;D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar ClientPage1 ```
