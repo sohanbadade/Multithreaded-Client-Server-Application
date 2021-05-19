@@ -27,12 +27,18 @@ Start the Server by doing following steps:
           Server.java : A thread responsible for every client. serverFile.txt: The Lexicon file at the server.
           serverFile.txt: The Lexicon file at the server. 
   3. Compile the files via following command and then start the Server: (Windows OS)
-          Compile: javac -cp *.java Run: java -cp .;< path of ActiveMQ library > ServerPage1 
-          for example, in my case, Compile: javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar *.java 
-          
-          Run: java -cp .;D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar ServerPage1
+          Compile: 
+          ```
+          javac -cp *.java Run: java -cp .;< path of ActiveMQ library > ServerPage1 
+          ```
+          for example, in my case, Compile: ``` javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar *.java ```
+          Run: 
+          ```
+          java -cp .;D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar ServerPage1
+          ```
+Next, Start Backup Server:
+Start backup server in similar way above.
 
-          Start backup server in similar way above.
 Start Client: 
 1. Go to Client/src 
 2. Compile the files via following command and then start the Client: (Windows OS) 
