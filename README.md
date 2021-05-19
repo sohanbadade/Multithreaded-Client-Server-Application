@@ -28,11 +28,13 @@ Start the Server by doing following steps:
           serverFile.txt: The Lexicon file at the server. 
   3. Compile the files via following command and then start the Server: (Windows OS)
           Compile: 
+          
           ```
           javac -cp *.java Run: java -cp .;< path of ActiveMQ library > ServerPage1 
           ```
-          for example, in my case, Compile: ``` javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar *.java ```
+        for example, in my case, Compile: ``` javac -cp D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar *.java ```
           Run: 
+          
           ```
           java -cp .;D:\java\apache-activemq-5.15.14\activemq-all-5.15.14.jar ServerPage1
           ```
